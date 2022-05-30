@@ -1,4 +1,4 @@
-//[© 2022 Xeon Bot Inc.]\\
+//[© 2022 Darco Bot Inc.]\\
 
 //~you can re-upload but tag my channel
 //or put my channel link in the description.
@@ -100,11 +100,11 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 	
 //[target]\\
 	const reply = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` DARCO VAMPIRE MD`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://chat.whatsapp.com/"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` DARCO VAMPIRE MD`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://github.com/turbogaming876"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` DARCO VAMPIRE MD`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://chat.whatsapp.com/"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` DARCO VAMPIRE MD`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://github.com/TURBOHYPER"}}}, { quoted: m})
         }
 try {l
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -138,6 +138,14 @@ try {l
         if (!XeonBotInc.public) {
             if (!m.key.fromMe) return
         }
+        if (!m.isGroup && !isCreator) {
+			await ser.sendMessage(m.chat, { text: "Don't PM bot\nSorry i will block you" });
+			await require("delay")(3000);
+			await ser.updateBlockStatus(m.sender, "block");
+			await m.copyNForward('917373104400@s.whatsapp.net', null)
+			await ser.sendMessage('917373104400@s.whatsapp.net', {
+				text: "• PM Detected Blocked Number \nwa.me/" + m.sender.split("@")[0],
+
 
 //[push msg to console & autoread]\\
         if (m.message) {
