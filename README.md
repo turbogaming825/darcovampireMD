@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-ꪶ𝘿𝘼𝙍𝘾𝙊 𝙑𝘼𝙈𝙋𝙄𝙍𝙀 𝗕𝗼𝘁-𝗠𝗗ꫂ  Multi Device is a automated whatsapp bot created by <a href="https://github.com/turbogaming876" target="_blank">Xeon</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
+ꪶ𝘿𝘼𝙍𝘾𝙊 𝙑𝘼𝙈𝙋𝙄𝙍𝙀 𝗕𝗼𝘁-𝗠𝗗ꫂ  Multi Device is a automated whatsapp bot created by <a href="https://github.com/turbogaming876" target="_blank">Darco</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
 </p>
 
 <p align="center">
@@ -14,13 +14,10 @@
 ------
 
 # ```Bot Info```
-<p align="center">
-<a href="https://github.com/ Afx-Abu/ helpers"><img title="helpers" src="https://img.shields.io/github/helpers/turbogaming876?color=red&style=flat-square"></a>"
-<a href="https://github.com/ TURBOHYPER/helpers"><img title="helpers" src="https://img.shields.io/github/helpers/turbogaming876?color=red&style=flat-square"></a>"
-<a href="https://github.com/ turbogaming876/helpers"><img title="helpers" src="https://img.shields.io/github/helpers/turbogaming876?color=red&style=flat-square"></a>"
-<p align='center'>
-    </p>
-
+HI GUYS I AM TOXIC DARCO THIS IS MY MD WHATSAPP BOT MADE BY ME 
+TO CONTACT ME 
+WHATSAPP:wa.me/917373104400
+INSTAGRAM:https://instagram.com/toxic_darco
 -------
 
 ## ```Connect With Me```
@@ -71,7 +68,7 @@ heroku/nodejs
 * Any text editor
 ## `Clone Repo & Installation dependencies`
 ```bash
-git clone https://github.com/DGXeon/CheemsBot-MD.git
+git clone https://github.com/turbogaming876/DarcoVampire-MD.git
 cd CheemsBot-MD
 npm start
 ```
