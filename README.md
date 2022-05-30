@@ -15,9 +15,9 @@
 
 # ```Bot Info```
 <p align="center">
-<a href="https://github.com/Afx-Abu/helpers"><img title="helpers" src="https://img.shields.io/github/helpers/turbogaming876?color=red&style=flat-square"></a>"
-<a href="https://github.com/TURBOHYPER/helpers"><img title="helpers" src="https://img.shields.io/github/helpers/turbogaming876?color=red&style=flat-square"></a>"
-<a href="https://github.com/turbogaming876/helpers"><img title="helpers" src="https://img.shields.io/github/helpers/turbogaming876?color=red&style=flat-square"></a>"
+<a href="https://github.com/ Afx-Abu/ helpers"><img title="helpers" src="https://img.shields.io/github/helpers/turbogaming876?color=red&style=flat-square"></a>"
+<a href="https://github.com/ TURBOHYPER/helpers"><img title="helpers" src="https://img.shields.io/github/helpers/turbogaming876?color=red&style=flat-square"></a>"
+<a href="https://github.com/ turbogaming876/helpers"><img title="helpers" src="https://img.shields.io/github/helpers/turbogaming876?color=red&style=flat-square"></a>"
 <p align='center'>
     </p>
 
