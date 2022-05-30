@@ -22,9 +22,9 @@ global.APIKeys = {
 }
 
 //═══════[modification]════════\\
-global.owner = ['917373104400','917560983211'] 
-global.pemilik = ['917373104400'917560983211'] 
-global.premium = ['917373104400'917560983211'] 
+global.owner = ['917373104400'] 
+global.pemilik = ['917373104400'] 
+global.premium = ['917373104400'] 
 global.pengguna = 'Darco AND Vampire' //username
 global.botnma = 'DARCO VAMPIRE Bot-MD' //bot name
 global.ownernma = 'DARCO AND VAMPIRE' //owner name
@@ -34,15 +34,15 @@ global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
 global.sp = '⭔' //design
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This feature in only for the bot number',
-    wait: 'In process...',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
+    success: 'Dᴏɴᴇ Tʜᴇ Jᴏʙ✓',
+    admin: 'Tʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ʙʏ ᴀᴅᴍɪɴ ᴏɴʟʏ!',
+    botAdmin: 'ʙᴏᴛ ᴍᴜꜱᴛ ʙᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴜꜱᴇ ᴛʜᴀᴛ ᴄᴏᴍᴍᴀɴᴅ!',
+    owner: 'Tʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ꜰᴏʀ ᴏɴʟʏ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇ ʙᴏᴛ',
+    group: 'Fᴇᴀᴛᴜʀᴇ ɪꜱ ᴜꜱᴇᴅ ꜰᴏʀ ᴏɴʟʏ ɢʀᴏᴜᴘꜱ!',
+    private: 'Fᴇᴀᴛᴜʀᴇ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ɪɴ ᴏɴʟʏ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ!',
+    bot: 'Tʜɪꜱ ꜰᴇᴀᴛᴜʀᴇ ɪɴ ᴏɴʟʏ ꜰᴏʀ ᴛʜᴇ ʙᴏᴛ ɴᴜᴍʙᴇʀ',
+    wait: '𝑰𝒏 𝒑𝒓𝒐𝒄𝒆𝒔𝒔... 𝑷𝒍𝒆𝒂𝒔𝒆 𝑾𝒂𝒊𝒕 𝑨 𝒎𝒊𝒏𝒖𝒕𝒆..',
+    endLimit: '𝒀𝒐𝒖𝒓 𝑫𝒂𝒊𝒍𝒚 𝑳𝒊𝒎𝒊𝒕 𝑯𝒂𝒔 𝑬𝒙𝒑𝒊𝒓𝒆𝒅, 𝑻𝒉𝒆 𝑳𝒊𝒎𝒊𝒕 𝑾𝒊𝒍𝒍 𝑩𝒆 𝑹𝒆𝒔𝒆𝒕 𝑬𝒗𝒆𝒓𝒚 12 𝑯𝒐𝒖𝒓𝒔',
 }
 global.limitawal = {
     premium: "Infinity", //premium user limit
