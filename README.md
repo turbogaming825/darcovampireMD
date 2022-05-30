@@ -46,9 +46,9 @@ Scan qr code from the above button, u can not pay because dont option is current
 
 ## `SETTINGS`
 
-- CHANGE OWNER NUMBER [Here](https://github.com/turbogaming876/CheemsBot-MD/blob/master/config/config.json#L25)
-- CHANGE OWNER NAME [Here](https://github.com/turbogaming876/CheemsBot-MD/blob/master/config/config.json#L30)
-- CHANGE BOT NAME [Here](https://github.com/turbogaming876/CheemsBot-MD/blob/master/config/config.json#L29)
+- CHANGE OWNER NUMBER [Here](https://github.com/turbogaming876/DarcoVampire-MD/blob/master/config/config.json#L25)
+- CHANGE OWNER NAME [Here](https://github.com/turbogaming876/DarcoVampire-MD/blob/master/config/config.json#L30)
+- CHANGE BOT NAME [Here](https://github.com/turbogaming876/DarcoVampire-MD/blob/master/config/config.json#L29)
 
 ## ` BUILDPACKS`
 
@@ -86,8 +86,8 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/DGXeon/CheemsBot-MD
-cd CheemsBot-MD
+git clone https://github.com/turbogaming876/DarcoVampire-MD
+cd DarcoVampire-MD
 npm start
 ```
 ## `For VPS`
@@ -98,8 +98,8 @@ apt apt install ffmpeg
 apt apt install libwebp 
 apt apt install imagemagick
 apt install bash
-git clone https://github.com/DGXeon/CheemsBot-MD
-cd CheemsBot-MD
+git clone https://github.com/turbogaming876/DarcoVampire-MD
+cd DarcoVampire-MD
 npm start
 ```
 ## `For 24/7 Activation`
