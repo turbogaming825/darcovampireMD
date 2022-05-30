@@ -28,7 +28,7 @@ let { addLevelingId, addLevelingLevel, addLevelingXp, getLevelingId, getLeveling
 const speedofbot = require("performance-now")
 
 //[thumb]\\
-let xeon = fs.readFileSync('./XeonMedia/cheemspic.jpg')
+let xeon = fs.readFileSync('./DarcoMedia/cheemspic.jpg')
 
 //[database]\\
 const antilink = JSON.parse(fs.readFileSync('./database/antilink.json'))
@@ -100,11 +100,11 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 	
 //[target]\\
 	const reply = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` DARCO VAMPIRE MD`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://github.com/turbogaming876"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` DARCO VAMPIRE MD`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DarcoMedia/cheemspic.jpg`),"sourceUrl": "https://github.com/turbogaming876"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` DARCO VAMPIRE MD`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://github.com/TURBOHYPER"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` DARCO VAMPIRE MD`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./DarcoMedia/cheemspic.jpg`),"sourceUrl": "https://github.com/TURBOHYPER"}}}, { quoted: m})
         }
 try {l
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -1241,7 +1241,7 @@ case 'antilink':
                                     id: 'sc'
                                 }
                             }]
-                      fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
+                      fatihgans = fs.readFileSync('./DarcoMedia/cheemspic.jpg')
                       let txt = `「 Cheems Bot Broadcast 」\n\n${text}`
                       XeonBotInc.send5ButImg(i, txt, XeonBotInc.user.name, fatihgans, btn)
                     }
@@ -1266,7 +1266,7 @@ case 'antilink':
                                     id: 'owner'
                                 }
                             }]
-                      fatihgans = fs.readFileSync('./XeonMedia/cheemspic.jpg')
+                      fatihgans = fs.readFileSync('./DarcoMedia/cheemspic.jpg')
                       let txt = `「 Cheems Bot Broadcast 」\n\n${text}`
                       XeonBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 		}
@@ -2371,7 +2371,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
             case 'owner': case 'creator': {
             XeonBotInc.sendContact(m.chat, global.pemilik, m)
-           const devsound = fs.readFileSync('./XeonMedia/botdev.mp3') //u can change the music in XeonMedia folder
+           const devsound = fs.readFileSync('./DarcoMedia/botdev.mp3') //u can change the music in DarcoMedia folder
            XeonBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
             }
             break
@@ -2390,7 +2390,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2434,7 +2434,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Hi 🤚 ${pushname}
 How Are You? 😊
 
@@ -2620,7 +2620,7 @@ case 'grupmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2662,7 +2662,7 @@ case 'downloadmenu': {
                         hydratedTemplate: {
                             hydratedContentText: okemenu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2699,7 +2699,7 @@ case 'downloadmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2730,7 +2730,7 @@ case 'randommenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2762,7 +2762,7 @@ case 'funmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2802,7 +2802,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2836,7 +2836,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2894,7 +2894,7 @@ case 'horoscopemenukcodk': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2932,7 +2932,7 @@ case 'convertmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2972,7 +2972,7 @@ case 'nocategorymenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3009,7 +3009,7 @@ case 'databasemenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3041,7 +3041,7 @@ case 'anonymouschatmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3073,7 +3073,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3110,7 +3110,7 @@ break
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3251,7 +3251,7 @@ break
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+                            jpegThumbnail: fs.readFileSync('./DarcoMedia/cheemspic.jpg')},
                             hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
