@@ -16,7 +16,8 @@
 # ```Bot Info```
 <p align="center">
 <a href="https://github.com/Afx-Abu"
-<a href="https://github.com/TURBOHYPER"
+<a href="https://github.com/TURBOHYPER/
+<a href="https://github.com/DGXeon/helpers"><img title="helpers" src="https://img.shields.io/github/heleped/turbogaming876?color=red&style=flat-square"></a>"
 <p align='center'>
     </p>
 
